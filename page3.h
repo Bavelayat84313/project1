@@ -1,6 +1,7 @@
 #ifndef PAGE3_H
 #define PAGE3_H
 
+#include "qpushbutton.h"
 #include <QMainWindow>
 
 namespace Ui {
@@ -18,16 +19,28 @@ public:
 private slots:
 
 
-
-
-
     QString loadRandomMap();
     void loadAndProcessMap();
 
-    void on_pushButton_3_clicked();
+    void onCharacterClicked();
+    void onBoardClicked();
+
+
 
 private:
     Ui::page3 *ui;
+    QVector<QPushButton*> pushButtons;
+    QVector<QPushButton*> charactersplayer1;
+    QVector<QPushButton*> charactersplayer2;
+    //QPushButton* selectedFieldButton = nullptr; // عضوی از کلاس
+    //void setupConnections();
+
+    QPushButton* selectedCharacter = nullptr;
+    //bool isCharacterSelected = false;
+    int player1CharacterCount = 0;
+    int player2CharacterCount = 0;
+    bool isPlayer1Turn = true;
+
 };
 
 #endif // PAGE3_H

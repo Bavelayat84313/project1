@@ -38,8 +38,29 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 RESOURCES += \
     Agent1.qrc \
+    angus.qrc \
+    angus2.qrc \
+    b.qrc \
+    billy.qrc \
+    billy2.qrc \
+    boi.qrc \
+    boi2.qrc \
     brown.qrc \
     brown2.qrc \
+    bunka.qrc \
+    bunka2.qrc \
+    colonelbaba.qrc \
+    colonelbaba2.qrc \
+    death.qrc \
+    death2.qrc \
+    duraham.qrc \
+    duraham2.qrc \
+    eloi.qrc \
+    eloi2.qrc \
+    elsa.qrc \
+    elsa2.qrc \
+    frost.qrc \
+    frost2.qrc \
     grid1.qrc \
     grid2.qrc \
     grid3.qrc \
@@ -50,4 +71,32 @@ RESOURCES += \
     grid8.qrc \
     image1.qrc \
     image2.qrc \
-    image3.qrc
+    image3.qrc \
+    kabu.qrc \
+    kabu2.qrc \
+    kanar.qrc \
+    kanar2.qrc \
+    karissa.qrc \
+    karissa2.qrc \
+    khan.qrc \
+    khan2.qrc \
+    medusa.qrc \
+    medusa2.qrc \
+    rajakal.qrc \
+    rajakal2.qrc \
+    rambo.qrc \
+    rambo2.qrc \
+    receton.qrc \
+    reketon2.qrc \
+    sabrina.qrc \
+    sabrina2.qrc \
+    salih.qrc \
+    salih2.qrc \
+    sanka.qrc \
+    sanka2.qrc \
+    sirlamorak.qrc \
+    sirlamorak2.qrc \
+    sirphilip.qrc \
+    sirphilip2.qrc \
+    tusk.qrc \
+    tusk2.qrc
