@@ -2220,6 +2220,19 @@ border:5px solid pink;</string>
      </widget>
     </widget>
    </widget>
+   <widget class="QLabel" name="label_turn">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>20</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -2234,54 +2247,54 @@ border:5px solid pink;</string>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
-  <include location="colonelbaba2.qrc"/>
-  <include location="elsa2.qrc"/>
-  <include location="sanka.qrc"/>
-  <include location="rajakal.qrc"/>
-  <include location="sabrina.qrc"/>
+  <include location="salih2.qrc"/>
+  <include location="sirphilip2.qrc"/>
+  <include location="bunka2.qrc"/>
   <include location="kabu.qrc"/>
-  <include location="eloi.qrc"/>
+  <include location="eloi2.qrc"/>
+  <include location="bunka.qrc"/>
+  <include location="rambo2.qrc"/>
+  <include location="sanka.qrc"/>
+  <include location="elsa2.qrc"/>
+  <include location="rajakal.qrc"/>
+  <include location="angus.qrc"/>
+  <include location="sirlamorak2.qrc"/>
   <include location="karissa2.qrc"/>
   <include location="khan.qrc"/>
-  <include location="duraham.qrc"/>
-  <include location="angus.qrc"/>
-  <include location="sirlamorak.qrc"/>
-  <include location="rajakal2.qrc"/>
-  <include location="frost2.qrc"/>
+  <include location="kanar2.qrc"/>
+  <include location="angus2.qrc"/>
   <include location="frost.qrc"/>
+  <include location="salih.qrc"/>
+  <include location="rajakal2.qrc"/>
+  <include location="sabrina2.qrc"/>
+  <include location="frost2.qrc"/>
+  <include location="death.qrc"/>
   <include location="tusk2.qrc"/>
   <include location="khan2.qrc"/>
-  <include location="angus2.qrc"/>
-  <include location="eloi2.qrc"/>
-  <include location="salih.qrc"/>
-  <include location="bunka.qrc"/>
-  <include location="reketon2.qrc"/>
-  <include location="kanar.qrc"/>
-  <include location="tusk.qrc"/>
-  <include location="sirphilip.qrc"/>
-  <include location="bunka2.qrc"/>
-  <include location="boi2.qrc"/>
   <include location="receton.qrc"/>
-  <include location="medusa2.qrc"/>
-  <include location="medusa.qrc"/>
-  <include location="sanka2.qrc"/>
-  <include location="death.qrc"/>
-  <include location="sabrina2.qrc"/>
-  <include location="rambo2.qrc"/>
-  <include location="billy.qrc"/>
-  <include location="sirphilip2.qrc"/>
-  <include location="death2.qrc"/>
-  <include location="sirlamorak2.qrc"/>
   <include location="colonelbaba.qrc"/>
+  <include location="sirlamorak.qrc"/>
+  <include location="duraham.qrc"/>
+  <include location="medusa.qrc"/>
+  <include location="death2.qrc"/>
+  <include location="kanar.qrc"/>
+  <include location="sirphilip.qrc"/>
+  <include location="medusa2.qrc"/>
+  <include location="colonelbaba2.qrc"/>
+  <include location="billy2.qrc"/>
+  <include location="elsa.qrc"/>
   <include location="kabu2.qrc"/>
-  <include location="salih2.qrc"/>
+  <include location="eloi.qrc"/>
+  <include location="sabrina.qrc"/>
+  <include location="billy.qrc"/>
+  <include location="rambo.qrc"/>
+  <include location="boi2.qrc"/>
+  <include location="tusk.qrc"/>
+  <include location="reketon2.qrc"/>
   <include location="boi.qrc"/>
   <include location="karissa.qrc"/>
   <include location="duraham2.qrc"/>
-  <include location="rambo.qrc"/>
-  <include location="billy2.qrc"/>
-  <include location="elsa.qrc"/>
-  <include location="kanar2.qrc"/>
+  <include location="sanka2.qrc"/>
  </resources>
  <connections/>
 </ui>

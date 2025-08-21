@@ -3,6 +3,13 @@
 
 #include "qpushbutton.h"
 #include <QMainWindow>
+#include "tiles.h"
+#include <queue>
+
+enum GamePhase {
+    PLACEMENT_PHASE, // فاز قرار دادن کاراکترها
+    MOVEMENT_PHASE   // فاز حرکت دادن کاراکترها
+};
 
 namespace Ui {
 class page3;
@@ -25,6 +32,14 @@ private slots:
     void onCharacterClicked();
     void onBoardClicked();
 
+    tiles* getTileAt(int, int);
+    void findNeighbors();
+    //void processNeighbor(tiles*, int, int, int, QList<tiles*>&, std::queue<std::pair<tiles*, int>>&);
+    QList<tiles*> findReachableTiles(tiles*, int);
+    void highlightReachableTiles(tiles*, int);
+    void resetTileHighlights();
+    //void debugTilePositions();
+    void debugReachableTiles(tiles*, int);
 
 
 private:
@@ -35,12 +50,18 @@ private:
     //QPushButton* selectedFieldButton = nullptr; // عضوی از کلاس
     //void setupConnections();
 
-    QPushButton* selectedCharacter = nullptr;
+    QPushButton* selectedCharacterFromPanel = nullptr; // برای فاز قرارگیری
+    QPushButton* selectedCharacterOnBoard = nullptr;   // برای فاز حرکت
+    //QPushButton* selectedCharacter = nullptr;
     //bool isCharacterSelected = false;
+
+    GamePhase gamePhase = PLACEMENT_PHASE;
+    bool isPlayer1Turn = true;
     int player1CharacterCount = 0;
     int player2CharacterCount = 0;
-    bool isPlayer1Turn = true;
 
+    QVector<QPushButton*> player1CharactersOnBoard;
+    QVector<QPushButton*> player2CharactersOnBoard;
 };
 
 #endif // PAGE3_H
